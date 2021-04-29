@@ -1,0 +1,28 @@
+{
+  "name": "redux-project",
+  "version": "1.0.0",
+  "description": "reactjs nextjs redux react-redux ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "reactjs",
+    "nextjs",
+    "redux",
+    "react-redux"
+  ],
+  "author": "Subhash Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^10.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6"
+  }
+}
