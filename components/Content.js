@@ -2,7 +2,6 @@ import React from "react";
 import { connect } from "react-redux";
 import { gameDownload, cancelDownload } from "../redux/Game/actions";
 const Content = (props) => {
-  const counter = setTimeout(props.gameDownload, 10000);
   return (
     <>
       <div className="text-center py-4  bg-primary">
